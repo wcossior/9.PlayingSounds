@@ -5,8 +5,8 @@
 }
 
 :root{
-    --primary-color: #fc8e5b;
-    --secondary-color: #f5ea95;
+    --primary-color: #013750;
+    --secondary-color: #2c6b74;
 }
 
 body{
@@ -28,7 +28,7 @@ body{
 }
 
 .sound-box{
-    
+    cursor: pointer;
     background-color: var(--primary-color);
     display: flex;
     justify-content: center;
@@ -37,4 +37,8 @@ body{
     font-size: 22px;
     color: #fafafa;
     border-radius: 6px;
+}
+
+.sound-box:hover{
+    background-color: #023e5a;
 }
